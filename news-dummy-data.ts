@@ -24,7 +24,7 @@ export const DUMMY_NEWS: News[] =[
         slug: 'beavor-plague',
         title: 'A player of Bavers ',
         image: 'Company-pana.png',
-        date: '11-2-2009',
+        date: '13-4-2012',
         content: 'Since 103 fjjsd fnaeekalmdc acdamdkla cas hcnda la jkdcamdc adcska cnam da ma dhacj dad ca da,dajkdcacd ad a .'
     },
     {
@@ -32,7 +32,7 @@ export const DUMMY_NEWS: News[] =[
         slug: 'hiking',
         title: 'hiking is the best  ',
         image: 'Online world-rafiki.png',
-        date: '13-4-2012',
+        date: '13-4-2011',
         content: 'Since 103 fjjsd fnaeekalmdc acdamdkla cas hcnda la jkdcamdc adcska cnam da ma dhacj dad ca da,dajkdcacd ad a .'
     },
     {
@@ -40,7 +40,7 @@ export const DUMMY_NEWS: News[] =[
         slug: 'landspace ',
         title: 'The beaty of landspace  ',
         image: 'Team spirit-rafiki.png',
-        date: '13-4-2011',
+        date: '11-2-2009',
         content: 'Since 103 fjjsd fnaeekalmdc acdamdkla cas hcnda la jkdcamdc adcska cnam da ma dhacj dad ca da,dajkdcacd ad a .'
     },
 ]; 
