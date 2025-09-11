@@ -9,6 +9,12 @@ export default function PageYear({ params }:{ params: Params }){
     if(params.filters?.length){
         const year = params?.filters[0];
         const month = params?.filters[1];
+
+        if(isNaN(+year)){
+            throw new Error('Year is not a number');
+        }
+
+
         if(year && !month){
             const news = getNewsInYear(DUMMY_NEWS,year as string);
             const months = getMonthesInYear(news);
@@ -26,6 +32,9 @@ export default function PageYear({ params }:{ params: Params }){
                 </>
             );
         }else if(year && month){
+            if(isNaN(+month)){
+                throw new Error('month is not a number');
+            }
             const news = getNewsInMonth(DUMMY_NEWS,year as string,month as string);
             return (
                 <>

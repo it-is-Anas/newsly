@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLink from "./nav-link";
 
 export default function MainHeader(){
     return (
@@ -8,11 +9,11 @@ export default function MainHeader(){
                     <Link className='' href="/" >Home</Link>
                 </li>
                 <span className="flex items-center  ">
-                    <li className="font-[600] text-[1em] px-[10px] py-[5px] rounded-[5px] hover:bg-[#eee]">
-                        <Link className='' href="/news" >News</Link>
+                    <li className="">
+                        <NavLink href="/news"  >News</NavLink>
                     </li>
-                    <li className="font-[600] text-[1em] px-[10px] py-[5px] rounded-[5px] hover:bg-[#eee]">
-                        <Link className='' href="/archive" >archive</Link>
+                    <li className="">
+                        <NavLink href="/archive"  >archive</NavLink>
                     </li>
                 </span>
             </ul>
