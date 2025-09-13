@@ -2,6 +2,7 @@ import { Params } from "next/dist/server/request/params";
 import { DUMMY_NEWS } from "../../../news-dummy-data";
 import type {News} from "../../../news-dummy-data";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 
 
@@ -17,7 +18,9 @@ export default function NewsPage({params}:{
     return(
         <article className="" >
             <header className="">
-                <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} className="w-[12em] h-[12em]" />
+                <Link href={`/news/${newsItem.slug}/image`} >
+                    <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} className="w-[12em] h-[12em]" />
+                </Link>
                 <h1 className="font-[600] text-[1.2em]">{newsItem.title}</h1>
                 <p className="text-[.8em] font-[600]">{newsItem.date}</p>
             </header>   

@@ -11,7 +11,7 @@ export default function NewsList({news}:{news:News[]}){
                     <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} className="w-[10em] h-[10em]" />
                     <span className="">{ newsItem.title }</span>
                 </Link>
-            </li>))
+            </li>))  
         }
     </ul>);
 }
