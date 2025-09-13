@@ -1,5 +1,5 @@
 import { Params } from "next/dist/server/request/params";
-import { DUMMY_NEWS } from "../../../../news-dummy-data";
+import { DUMMY_NEWS } from "../../../../../news-dummy-data";
 import { notFound } from "next/navigation";
 
 

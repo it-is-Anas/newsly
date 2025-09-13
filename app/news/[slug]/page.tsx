@@ -11,7 +11,7 @@ export default function NewsPage({params}:{
     params: Params,
 }){
     const newsSlug = params.slug;
-    const newsItem: (News|undefined) = DUMMY_NEWS.find(news => news.slug === newsSlug);
+    const newsItem: (News | undefined) = DUMMY_NEWS.find(news => news.slug === newsSlug);
     if(!newsItem){
         notFound();
     }
