@@ -6,6 +6,6 @@ export function middleware(requst: Request){
     return NextResponse.next();
 }
 
-export const config = {
-    matcher: '/news',
-};
+// export const config = {
+//     matcher: '/news',
+// };
