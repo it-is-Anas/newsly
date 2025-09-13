@@ -1,7 +1,7 @@
 import { Params } from "next/dist/server/request/params";
-import { getMonthesInYear, getNewsInMonth, getNewsInYear, getYears } from "../../../../lib/news-opr";
-import { DUMMY_NEWS } from "../../../../news-dummy-data";
-import NewsList from "../../../../components/news-list";
+import { getMonthesInYear, getNewsInMonth, getNewsInYear, getYears } from "../../../../../lib/news-opr";
+import { DUMMY_NEWS } from "../../../../../news-dummy-data";
+import NewsList from "../../../../../components/news-list";
 import Link from "next/link";
 
 

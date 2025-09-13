@@ -1,6 +1,6 @@
-import NewsList from "../../../components/news-list";
-import { getLatestNews } from "../../../lib/news-opr";
-import { DUMMY_NEWS, News } from "../../../news-dummy-data";
+import NewsList from "../../../../components/news-list";
+import { getLatestNews } from "../../../../lib/news-opr";
+import { DUMMY_NEWS, News } from "../../../../news-dummy-data";
 
 export default function LatestPage(){
     const news:News[] = getLatestNews(DUMMY_NEWS);

@@ -1,7 +1,7 @@
 'use client';
 
 import { Params } from "next/dist/server/request/params";
-import { DUMMY_NEWS } from "../../../../../news-dummy-data";
+import { DUMMY_NEWS } from "../../../../../../news-dummy-data";
 import { notFound , useRouter} from "next/navigation";
 
 export default function ImagePage({params}:{params:Params}){

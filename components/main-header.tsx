@@ -6,7 +6,7 @@ export default function MainHeader(){
         <header className="w-[100%] ">
             <ul className="flex justify-between items-center">
                 <li className="font-[600] text-[1.4em] px-[5px] py-[5px]">
-                    <Link className='' href="/" >Home</Link>
+                    <Link className='' href="/" >Newsly</Link>
                 </li>
                 <span className="flex items-center  ">
                     <li className="">

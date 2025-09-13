@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import notFonudImg from '../public/system/Webinar-pana.png';
+import notFonudImg from '../../public/system/Webinar-pana.png';
 
 
 export default function NotFoundPage(){

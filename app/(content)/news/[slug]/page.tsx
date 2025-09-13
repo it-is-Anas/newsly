@@ -1,6 +1,6 @@
 import { Params } from "next/dist/server/request/params";
-import { DUMMY_NEWS } from "../../../news-dummy-data";
-import type {News} from "../../../news-dummy-data";
+import { DUMMY_NEWS } from "../../../../news-dummy-data";
+import type {News} from "../../../../news-dummy-data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 
